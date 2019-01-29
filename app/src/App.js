@@ -2,15 +2,15 @@ import React, { Component } from 'react';
 import './App.css';
 
 import Main from './components/main';
-import {Layout, Header, Textfield, Drawer, Navigation, Content} from 'react-mdl';
+import {Layout, Header,  Drawer, Navigation, Content} from 'react-mdl';
 import {Link} from 'react-router-dom';
 
 class App extends Component {
   render() {
     return (
-      <div style={{height: '300px', position: 'relative'}}>
+      <div >
       <Layout fixedHeader>
-          <Header title={<span><span style={{ color: '#ddd' }}></span><strong>Amer Toukan</strong></span>}>
+          <Header className = 'header-color' title={<span><span style={{ color: '#ddd' }}></span><strong>Amer Toukan</strong></span>}>
               <Navigation>
               <Link to="/">Home</Link>
               <Link to = "/resume">Resume</Link>

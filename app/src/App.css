@@ -62,3 +62,7 @@ background: linear-gradient(to right, #F56217, #0B486B); /* W3C, IE 10+/ Edge, F
   font-size: 4em;
   padding: 8px;
 }
+
+.projects-grid{
+  display:flex;
+}

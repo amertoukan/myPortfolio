@@ -1,7 +1,9 @@
 import React from 'react';
-import {Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton} from 'react-mdl';
-import Tab0 from './tab0';
+import {Tabs, Tab, Grid, Cell} from 'react-mdl';
+
 import Tab1 from './tab1';
+import Tab2 from './tab2';
+import Tab3 from './tab3';
 
 class Projects extends React.Component{
    constructor(props){
@@ -12,16 +14,14 @@ class Projects extends React.Component{
    }
 
    toggleCategories = () => {
-       if (this.state.activeTab === 0){
-          return (
-              <Tab0 />
-          )
-       } else if (this.state.activeTab === 1) {
+       if (this.state.activeTab === 0) {
          return <Tab1 />
-       } else if (this.state.activeTab === 2) {
-         return <div><h1>This is HTML/CSS</h1></div>
-       }
-   }
+       } else if (this.state.activeTab === 1) {
+         return <Tab2 />
+       }else if (this.state.activeTab === 2) {
+        return <Tab3 />
+      }
+   } 
     render(){
         return(
    <div className ="category-tabs"> 
@@ -29,9 +29,10 @@ class Projects extends React.Component{
                 activeTab: tabId
             })} ripple>
           
-                <Tab>React</Tab>
-                <Tab>NodeJS</Tab>
+            
                 <Tab>JavaScript</Tab>
+                <Tab>React</Tab>
+                <Tab>Node</Tab>
                 </Tabs>
                
                 <Grid>

@@ -25,11 +25,6 @@ class Tab2 extends React.Component {
      <IconButton name='share'/>
      </CardMenu>
      </Card>
-     
-
-     
-
-
      </div>
         )
     }

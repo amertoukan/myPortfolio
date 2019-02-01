@@ -107,3 +107,10 @@ background: linear-gradient(to right, #F56217, #0B486B); /* W3C, IE 10+/ Edge, F
   font-size: 25px; 
   padding-right: 1rem;
 }
+
+/* Resume Page*/
+
+.resume-right-col {
+  background: #27221F;
+  color: white; 
+}

@@ -19,10 +19,11 @@ class Landing extends React.Component{
                 <hr/>
 
                 <p> AJAX | REST | React | jQuery | JavaScript | Bootstrap | NodeJS | MongoDB | MySQL</p>
-            <div className = "social-links">
+         
+                <div className = "social-links">
         
             {/* LinkedIn  */}
-            <a href ="https://www.linkedin.com/in/amer-t-51055358/" rel="noopener noreferrer" target="_blank">
+            <a href = "https://www.linkedin.com/in/amer-t-51055358/" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-linkedin" aria-hidden="true"/>
             </a>
 

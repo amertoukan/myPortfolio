@@ -8,8 +8,7 @@
 #git.ignore
 src/*
 public/*
-build/static/css/*.map
-build/static/js/*.map
+
 
 # testing
 /coverage

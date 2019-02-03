@@ -4,7 +4,7 @@ import {Grid, Cell} from 'react-mdl';
 import Title from './title';
 import Description from './description';
 import Education from './education'
-
+import Skills from './skills';
 
 class AboutMe extends React.Component{
     render(){
@@ -17,7 +17,7 @@ class AboutMe extends React.Component{
                         textAlign: 'center'
                     }}> 
                         <img 
-                    src= "https://wwww.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+                    src= "https://media.licdn.com/dms/image/C5103AQGlPYpoRCnuQQ/profile-displayphoto-shrink_200_200/0?e=1554940800&v=beta&t=Pa6cp80Rit6_CtY8CLvs9gMZkXHmkflqetO6arFNN5I"
                     alt = "avatar"
                     style = {{
                         height: '250px'
@@ -27,7 +27,30 @@ class AboutMe extends React.Component{
                     <h2 style ={{paddintTop:"2em"}}>Amer Toukan</h2>
                     <h4 style = {{color: 'grey'}}> Full-Stack Web Developer</h4>
                     <hr style = {{borderTop: '3px sold #833FB2', width: '50%'}}/>
-                </Cell>
+                    
+                    <Title className ='skills-header' 
+                    title = "Hobbies"/>
+                    
+                    <Skills 
+                    skill = "Developing"
+                    progress = {50}
+                    />
+
+                    <Skills 
+                    skill = "Reading"
+                    progress = {30}
+                    />
+                    <Skills 
+                    skill = "Gaming"
+                    progress = {10}
+                    />
+                    <Skills 
+                    skill = "Soccer"
+                    progress = {10}
+                    />
+
+
+                    </Cell>
 
 
                 <Cell className = 'about-right-col' col = {8}> 

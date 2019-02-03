@@ -13,7 +13,7 @@ class Contact extends React.Component{
 <div className = 'contact-left'>
 <h2>Amer Toukan</h2>
   <img 
-    src = "https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+    src = "https://media.licdn.com/dms/image/C5103AQGlPYpoRCnuQQ/profile-displayphoto-shrink_200_200/0?e=1554940800&v=beta&t=Pa6cp80Rit6_CtY8CLvs9gMZkXHmkflqetO6arFNN5I"
     alt = "avatar"
     style = {{height: '250px'}}/>
 </div>

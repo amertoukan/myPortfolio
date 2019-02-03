@@ -143,3 +143,12 @@ Grid .background {
   margin: auto;
   padding: 10px;
 }
+ /*Skills*/
+
+ .skills-header{
+   color: black;
+   padding-bottom: 0;
+   margin-bottom: 0;
+ }
+
+ 

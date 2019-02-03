@@ -10,7 +10,7 @@ class Landing extends React.Component{
                 <Grid className = "landing-grid background">
                 <Cell col={12}>
                 <img 
-                src = "https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png"
+                src = "https://media.licdn.com/dms/image/C5103AQGlPYpoRCnuQQ/profile-displayphoto-shrink_200_200/0?e=1554940800&v=beta&t=Pa6cp80Rit6_CtY8CLvs9gMZkXHmkflqetO6arFNN5I"
                 alt = "avatar"
                 className = "avatar-img"
                 />

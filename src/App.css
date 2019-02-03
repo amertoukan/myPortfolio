@@ -137,7 +137,9 @@ Grid .background {
 
 /* Resume Page*/
 
-.resume-right-col {
+.about-right-col {
   background: #27221F;
   color: white; 
+  margin: auto;
+  padding: 10px;
 }

@@ -23,7 +23,8 @@ class App extends Component {
               <Link to = "/contact">Contact</Link>
               </Navigation>
           </Header>
-          <Drawer style = {{background: '#1D4350'}}title = {<Link className ='title'  style={{color: 'white', textDecoration: 'none', paddingBottom: 0, justifyContent: 'center'}}to="/">Amer Toukan</Link>}>
+         
+        <Drawer style = {{background: '#1D4350'}}title = {<Link className ='title'  style={{color: 'white', textDecoration: 'none', paddingBottom: 0, justifyContent: 'center'}}to="/">Amer Toukan</Link>}>
         <Navigation className = 'sidenav-color'>
         
             <Link to = "/aboutme" className = 'sidenav-content' style = {sideNav}>About Me</Link>

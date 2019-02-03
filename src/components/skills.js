@@ -1,6 +1,6 @@
 import React from 'react';
-import {Grid, Cell, ProgressBar} from 'react-mdl';
-import Title from './title';
+import {ProgressBar} from 'react-mdl';
+
 
 
 class Skills extends React.Component {

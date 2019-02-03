@@ -1,58 +1,36 @@
 import React from 'react';
-import {Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton} from 'react-mdl';
 import budget1 from './img/budget1.png';
+import {Grid} from 'react-mdl';
+import Project from './project';
 
 class Tab0 extends React.Component{
     render(){
         return (
     <div className ='projects-grid'>
-
+<Grid>
      {/*Wather App*/}
-     <Card shadow = {5} style = {{minWidth: '450', margin : 'auto'}}>
-     <CardTitle style = {{color: '#fff', height: '176px', background: 'url("https://github.com/amertoukan/react-weather-app/raw/master/src/img/index.png")center/cover'}}>Weather App</CardTitle>
-     <CardText>
-     <p>This weather app will show the temperature, humidity, high and low temperatures.</p> 
-     <hr />    
-     <p>AJAX, ES6, React, UI/UX</p>
-     </CardText>
-     <CardActions border>
-     <a href = "https://github.com/amertoukan/react-weather-app">
-     <Button colored>Github</Button>
-     </a>
-    <a href = "https://mysterious-badlands-22881.herokuapp.com/">
-    <Button colored>Live Demo</Button>
-    </a>
-     </CardActions>
-     <CardMenu style ={{color:'fff'}}>
-     </CardMenu>
-     </Card>
-
+     <Project
+        image = "https://github.com/amertoukan/react-weather-app/raw/master/src/img/index.png"
+        title = "Weather App"
+        desc1 = "This weather app will show the temperature, humidity, high and low temperatures."
+        techTools = "AJAX, ES6, React, UI/UX"
+        github = "https://github.com/amertoukan/react-weather-app"
+        live = "https://mysterious-badlands-22881.herokuapp.com/"
+    />
+     
 
      {/* Budget+ */}
-     <Card shadow = {5} style = {{minWidth: '450', margin : 'auto'}}>
-     <CardTitle style = {{color: '#fff', height: '176px', background: 'url('+budget1+')center/cover'}}> Budget+ </CardTitle>
-     <CardText>
-     <p>Displays user’s suggested monthly spending based on their income.</p>
-  
-     <hr/>
-     <p> React, Node, Javascript, react-bootstrap, Mongoose, MongoDB</p>
-     </CardText>
-     <CardActions border>
-     <a href = "https://github.com/anneventures/FinalProject">
-     <Button colored>Github</Button>
-     </a>
-    <a href = "https://agile-hollows-27414.herokuapp.com/">
-    <Button colored>Live Demo</Button>
-    </a>
-     
-     </CardActions>
-     <CardMenu style ={{color:'fff'}}>
-     <IconButton name='share'/>
-     </CardMenu>
-     </Card>
 
-    
-    </div>
+     <Project
+        image = {budget1}
+        title = "Budget +"
+        desc1 = "Displays user’s suggested monthly spending based on their income."
+        techTools = "React, Node, Javascript, react-bootstrap, Mongoose, MongoDB"
+        github = "https://github.com/anneventures/FinalProject"
+        live = "https://agile-hollows-27414.herokuapp.com/"
+    />
+    </Grid>
+     </div>
            
         )
     }

@@ -1,6 +1,6 @@
 import React from 'react';
 import {Grid, Cell} from 'react-mdl';
-import background from './img/Toronto.jpg'
+
 
 class Landing extends React.Component{
     render(){

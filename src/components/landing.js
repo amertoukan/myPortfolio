@@ -1,11 +1,12 @@
 import React from 'react';
 import {Grid, Cell} from 'react-mdl';
+import background from './img/Toronto.jpg'
 
 class Landing extends React.Component{
     render(){
        
         return(
-            <div style = {{width: '100%', margin:'auto'}}>
+            <div style = {{width: '100%', height:'100%', margin:0, background: 'url(https://www.pixelstalk.net/wp-content/uploads/2016/10/Aesthetic-Wallpapers-HD-Free-Download.png) center/cover'}}>
                 <Grid className = "landing-grid background">
                 <Cell col={12}>
                 <img 

@@ -1,9 +1,17 @@
 import React from 'react';
+import '../App.css';
+
 
 class AboutMe extends React.Component{
     render(){
+        const contactBackground = {
+           
+
+        }
         return(
-            <div><h1>AboutMe Page</h1></div>
+            <div style = {contactBackground}>
+            
+            </div>
         )
     }
 }

@@ -1,13 +1,27 @@
 
 .header-color{
-background: #0B486B;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #F56217, #0B486B);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #F56217, #0B486B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+background: #1D4350;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #A43931, #1D4350);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #A43931, #1D4350); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.sidenav-color{
+  height: 100%;
+  width:  100;
+  background:#1D4350;  /* fallback for old browsers */
+  background:#1D4350;  /* Chrome 10-25, Safari 5.1-6 */
+  background:#1D4350; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  justify-content: space-evenly ;
+}
+
+.sidenav-content{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 100;
+}
+
+/*Landing Page*/
+
 .landing-grid {
-  
  text-align: center;
  top: 0;
  left: 0; 
@@ -70,11 +84,12 @@ Grid .background {
 }
 
 
-
+/* Projects page */
 .projects-grid{
   display:flex;
 }
 
+/*Contact page*/
 .contact-body{
   margin: auto;
   margin-top: 4em;
@@ -83,6 +98,10 @@ Grid .background {
   height: 100%;
   justify-content: center;
   padding-top: 2em;
+  background: white;
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
   
 }
 .contact-grid{
@@ -90,8 +109,6 @@ Grid .background {
   justify-content: center;
   width: 80%;
   height: 500px;
-  background: white;
-  opacity: 0.6;
   color: black;
   margin-bottom: 25px;
   padding: 10px
@@ -99,6 +116,7 @@ Grid .background {
 
 .contact-grid h2{
   font-family: 'Quicksand', sans-serif;
+  color: black;
 }
 
 .contact-grid p{
@@ -115,6 +133,7 @@ Grid .background {
   font-size: 25px; 
   padding-right: 1rem;
 }
+
 
 /* Resume Page*/
 

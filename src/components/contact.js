@@ -9,17 +9,14 @@ class Contact extends React.Component{
         <div className = 'contact-body' style = {{background:'url('+background+') center/cover'}}>
         <Grid className = 'contact-grid'>
         
-<Cell col = {6} style ={{opacity : '1'}}>
-
-  <h2>Amer Toukan</h2>
+<Cell col = {6}>
+<div className = 'contact-left'>
+<h2>Amer Toukan</h2>
   <img 
     src = "https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
     alt = "avatar"
-    style = {{height: '250px'}}
-  />
-
-  
-
+    style = {{height: '250px'}}/>
+</div>
             
 </Cell>
 

@@ -16,7 +16,7 @@ class App extends Component {
     return (
       <div>
       <Layout>
-      <Header className ='landing-bg'  title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">Amer Toukan</Link>} scroll>
+      <Header className="landing-bg" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">Amer Toukan</Link>} scroll>
               <Navigation>
               <Link to="/aboutme" style = {{marginTop: 0, paddingTop: 0}}>About Me</Link>
               <Link to = "/projects">Projects</Link>

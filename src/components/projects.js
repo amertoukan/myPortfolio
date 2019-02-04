@@ -24,15 +24,15 @@ class Projects extends React.Component{
    } 
     render(){
         return(
-   <div className ="category-tabs"> 
+   <div className ="category-tabs landing-bg"> 
             <Tabs activeTab = {this.state.activeTab} onChange = {(tabId) => this.setState ({
                 activeTab: tabId
             })} ripple>
           
             
-                <Tab>JavaScript</Tab>
-                <Tab>React</Tab>
-                <Tab>Node</Tab>
+                <Tab className = "project-tab" style ={{color:'white'}}>JavaScript</Tab>
+                <Tab className = "project-tab" style ={{color:'white'}}>React</Tab>
+                <Tab className = "project-tab" style ={{color:'white'}}>Node</Tab>
                 </Tabs>
                
                 <Grid>

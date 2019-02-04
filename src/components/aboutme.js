@@ -10,7 +10,7 @@ class AboutMe extends React.Component{
     render(){
         
         return(
-            <div style = {{width: '100%', height: '100%', margin: 0, background: 'url()'}}>
+            <div className = 'landing-bg'>
             <Grid>
                 <Cell className = 'about-left-col' col = {4}> 
                     <div style = {{
@@ -24,9 +24,9 @@ class AboutMe extends React.Component{
                     }}
                     />
                     </div>
-                    <h2 style ={{paddintTop:"2em"}}>Amer Toukan</h2>
-                    <h4 style = {{color: 'grey'}}> Full-Stack Web Developer</h4>
-                    <hr style = {{borderTop: '3px sold #833FB2', width: '50%'}}/>
+                    <h2 style ={{paddintTop:"2em", color:"whitesmoke"}}>Amer Toukan</h2>
+                    <h4 style = {{color: 'white'}}> Full-Stack Web Developer</h4>
+                    <hr style = {{borderTop: '3px solid #F56217' , width: '50%'}}/>
                     
                     <Title className ='skills-header' 
                     title = "Hobbies"/>
@@ -54,7 +54,7 @@ class AboutMe extends React.Component{
 
 
                 <Cell className = 'about-right-col' col = {8}> 
-                    <h2>About Me</h2>
+                    <h1>About Me</h1>
                     <hr style = {{borderTop: '3px solid #F56217'}} />
 
                     {/*Summary*/}

@@ -10,11 +10,11 @@ render(){
         {this.props.schoolName}
         </h4>
         <h5>{this.props.program}</h5>
-        <p>{this.props.schoolDescription}</p>
+        <p style ={{color:"#F56217"}}>{this.props.schoolDescription}</p>
         </Cell>
     
         <Cell col ={4}>
-       <p>{this.props.startYear} - {this.props.endYear}</p> 
+       <p style ={{color:"#F56217"}}>{this.props.startYear} - {this.props.endYear}</p> 
         </Cell>
         </Grid>
     )

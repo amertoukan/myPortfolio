@@ -10,7 +10,7 @@ class Skills extends React.Component {
             
                 
             
-                <p style = {{fontSize: '20px'}}>{this.props.skill}</p>
+                <p style = {{fontSize: '20px', color:"white"}}>{this.props.skill}</p>
                 <ProgressBar progress = {this.props.progress}/>
 <br/>
              

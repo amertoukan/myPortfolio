@@ -6,7 +6,7 @@ import background from './img/Toronto.jpg'
 class Contact extends React.Component{
     render(){
         return(
-        <div className = 'contact-body' style = {{background:'url('+background+') center/cover'}}>
+        <div className = 'contact-body landing-bg' style = {{background:'url('+background+') center/cover'}}>
         <Grid className = 'contact-grid'>
         
 <Cell col = {6}>

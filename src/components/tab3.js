@@ -3,10 +3,10 @@ import Project from './project'
 import {Grid} from 'react-mdl'
 import '../App.css'
 
-class Tab2 extends React.Component {
+class Tab3 extends React.Component {
     render(){
         return (
-            <div className ='projects-grid'>
+            <div className ='projects-grid landing-bg' style ={{height:'100%'}}>
 <Grid>
     {/*Bamazon*/}
     <Project
@@ -24,4 +24,4 @@ class Tab2 extends React.Component {
     }
 }
 
-export default Tab2;
+export default Tab3;

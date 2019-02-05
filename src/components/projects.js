@@ -24,7 +24,7 @@ class Projects extends React.Component{
    } 
     render(){
         return(
-   <div className ="category-tabs landing-bg"> 
+   <div className ="category-tabs landing-bg" style = {{height: '100%'}}> 
             <Tabs activeTab = {this.state.activeTab} onChange = {(tabId) => this.setState ({
                 activeTab: tabId
             })} ripple>
@@ -37,7 +37,7 @@ class Projects extends React.Component{
                
                 <Grid>
                 <Cell col={12}>
-                <div className = "projects-content"> { this.toggleCategories() } </div>
+                <div className = "projects-content landing-bg" style = {{height: '100%'}}> { this.toggleCategories() } </div>
                 </Cell>
                 </Grid>
               

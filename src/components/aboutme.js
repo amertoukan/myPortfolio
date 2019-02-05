@@ -10,7 +10,7 @@ class AboutMe extends React.Component{
     render(){
         
         return(
-            <div className = 'landing-bg'>
+            <div className = 'landing-bg' style = {{height:'100%'}}>
             <Grid>
                 <Cell className = 'about-left-col' col = {4}> 
                     <div style = {{

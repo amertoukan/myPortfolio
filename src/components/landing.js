@@ -6,8 +6,8 @@ class Landing extends React.Component{
     render(){
        
         return(
-            <div className = 'landing-bg'>
-                <Grid className = "landing-grid background">
+            <div className = 'landing-bg' style = {{height:'100%'}}>
+                <Grid className = "landing-grid">
                 <Cell col={12}>
                 <img 
                 src = "https://media.licdn.com/dms/image/C5103AQGlPYpoRCnuQQ/profile-displayphoto-shrink_200_200/0?e=1554940800&v=beta&t=Pa6cp80Rit6_CtY8CLvs9gMZkXHmkflqetO6arFNN5I"

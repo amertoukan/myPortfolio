@@ -53,27 +53,27 @@ class AboutMe extends React.Component{
                     </Cell>
 
 
-                <Cell className = 'about-right-col' col = {8}> 
+                <Cell className = 'about-right-col' style = {{backgroundSize: '100% 100%'}}col = {8}> 
                     <h1>About Me</h1>
-                    <hr style = {{borderTop: '3px solid #F56217'}} />
+                    <hr style = {{borderTop: '3px solid #49a09d'}} />
 
                     {/*Summary*/}
                    <Title 
                    title = "Summary"
                    />
-                    <hr style = {{borderTop: '4px dotted #23c26d', width: '50%'}} />
+                    <hr style = {{borderTop: '4px dotted #5f2c82', width: '50%'}} />
 
                    <Description 
                    line1 = "Full Stack Web Developer using MongoDB, Express, React, Node.js(MERN). Experienced in building CRUD applications, RESTful APIs using Node.js and express."
                    line2 = "Common libraries of use: Mongoose, Express, body-parse, react-router."
                    line3 = "Common use of UI libraries: Bootstrap 4, MaterializeCSS, React-MDL"
                     />
-
+<hr />
                     {/*Education*/}
                     <Title 
                     title = "Education"
                     />
-                    <hr style = {{borderTop: '4px dotted #23c26d', width: '50%'}} />
+                    <hr style = {{borderTop: '4px dotted #5f2c82', width: '50%'}} />
 
                     <Education 
                     schoolName = "University of Toronto"

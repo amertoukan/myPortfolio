@@ -3,6 +3,7 @@ import budget1 from './img/budget1.png';
 import calculator from './img/calculator.png';
 import {Grid} from 'react-mdl';
 import Project from './project';
+import './reset.css';
 
 class Tab2 extends React.Component{
     render(){

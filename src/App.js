@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-
+import './reset.css';
 import Main from './components/main';
 import {Layout, Header,  Drawer, Navigation, Content} from 'react-mdl';
 import {Link} from 'react-router-dom';

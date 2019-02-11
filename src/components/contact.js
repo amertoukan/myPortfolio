@@ -6,8 +6,8 @@ import background from './img/Toronto.jpg'
 class Contact extends React.Component{
     render(){
         return(
-        <div className = 'contact-body' style = {{background:'url('+background+') center/cover', height: '100%'}}>
-        <Grid className = 'contact-grid'>
+        <div className = 'contact-body clearfix' style = {{background:'url('+background+') center/cover', height: '100%'}}>
+        <Grid className = 'contact-grid clearfix'>
         
 <Cell col = {6}>
 <div className = 'contact-left'>
@@ -28,6 +28,7 @@ class Contact extends React.Component{
 
 <List>
 
+<div className = 'contact-list-box clearfix'>
 <div className = 'contact-list'>
     
     <ListItem>
@@ -52,14 +53,15 @@ class Contact extends React.Component{
             <i className = 'fa fa-instagram' aria-hidden = 'true'/>
      @amertoukan
      </ListItemContent>
+     
     </ListItem>
- 
-</div>
+    </div>
+    </div>
 </List>
 
         
 </Cell>
-    
+
         </Grid>
         
         </div>

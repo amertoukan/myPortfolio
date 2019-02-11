@@ -14,7 +14,7 @@ class Landing extends React.Component{
                 alt = "avatar"
                 className = "avatar-img"
                 />
-
+<hr className = "landing-line"/>
                 <div className = "banner-text clearfix">
                 <h1>Full-Stack Web Developer</h1>
                 <hr/>

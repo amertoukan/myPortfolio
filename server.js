@@ -11,10 +11,6 @@ app.get('/ping', (req, res) => {
     return res.send('pong');
 });
 
-if (process.env.NODE_ENV === 'production') {
-    server.use(express.static('client/build')); 
-    server.use('*', express.static('client/build')); // Added this     
-  }
 
 
 app.get('/*', (req,res) => {

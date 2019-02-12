@@ -10,7 +10,8 @@ class Tab2 extends React.Component{
         return (
     <div className ='projects-grid landing bg' style = {{height:'100%'}}>
 <Grid>
-     {/*Wather App*/}
+
+{/*Weather App*/}
      <Project
         image = "https://github.com/amertoukan/react-weather-app/raw/master/src/img/index.png"
         title = "Weather App"
@@ -31,8 +32,10 @@ class Tab2 extends React.Component{
  live = "https://afternoon-wave-20821.herokuapp.com/"
  />
    
-    </Grid>
-    <Grid>
+</Grid>
+
+
+<Grid>
   {/* Budget+ */}
 
   <Project
@@ -43,14 +46,17 @@ class Tab2 extends React.Component{
   github = "https://github.com/anneventures/FinalProject"
   live = "https://agile-hollows-27414.herokuapp.com/"
 />
-    {/*Calculator*/}
-    <Project
+
+
+{/*Calculator*/}
+<Project
   image = {calculator}
   title = "Calculator"
   desc1 = "A basic calculator."
   desc2 = "Heroku is not deployed as it keeps on returning status 500."
   techTools = "create-react-app, flexbox, npm, node, mathjs, express, path, heroku"
   github = "https://github.com/amertoukan/react-calculator/blob/master/img/calculator.png?raw=true"
+  live = "https://nameless-falls-30193.herokuapp.com/"
 />
     </Grid>
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import {Tabs, Tab, Grid, Cell} from 'react-mdl';
-import './reset.css';
+import '../reset.css';
 import Tab1 from './tab1';
 import Tab2 from './tab2';
 import Tab3 from './tab3';

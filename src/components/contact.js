@@ -1,7 +1,7 @@
 import React from 'react';
 import {Grid, Cell, List, ListItem, ListItemContent} from 'react-mdl';
 import '../App.css';
-import './reset.css';
+import '../reset.css';
 import background from './img/Toronto.jpg'
 
 class Contact extends React.Component{

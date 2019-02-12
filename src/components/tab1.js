@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import './reset.css';
+import '../reset.css';
 import {Grid} from 'react-mdl';
 import Project from './project';
 class Tab1 extends React.Component{

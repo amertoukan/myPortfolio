@@ -3,7 +3,7 @@ import budget1 from './img/budget1.png';
 import calculator from './img/calculator.png';
 import {Grid} from 'react-mdl';
 import Project from './project';
-import './reset.css';
+import '../reset.css';
 
 class Tab2 extends React.Component{
     render(){
@@ -53,7 +53,6 @@ class Tab2 extends React.Component{
   image = {calculator}
   title = "Calculator"
   desc1 = "A basic calculator."
-  desc2 = "Heroku is not deployed as it keeps on returning status 500."
   techTools = "create-react-app, flexbox, npm, node, mathjs, express, path, heroku"
   github = "https://github.com/amertoukan/react-calculator/blob/master/img/calculator.png?raw=true"
   live = "https://nameless-falls-30193.herokuapp.com/"

@@ -2,7 +2,7 @@ import React from 'react';
 import Project from './project'
 import {Grid} from 'react-mdl'
 import '../App.css'
-import './reset.css';
+import '../reset.css';
 
 class Tab3 extends React.Component {
     render(){
